@@ -1,0 +1,95 @@
+{
+  "version": "1.1.0",
+  "inputs": [
+    {
+      "name":"location",
+      "label":"Location",
+      "type":"textbox",
+      "placeholder":"Enter the city"
+    },
+    {
+      "name":"key",
+      "label":"Api Key",
+      "type":"textbox",
+      "placeholder":"Enter key"
+
+    },
+    {
+      "name": "units",
+      "label": "Unit",
+      "type": "dropdown",
+      "visible": true,
+      "options": {
+        "defaultitem": "c"
+      },
+      "items": [
+        {
+          "icon": "",
+          "label": "Fahrenheit",
+          "value": "f"
+        },
+        {
+          "icon": "",
+          "label": "Celsius",
+          "value": "c"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "type": "multiselect",
+      "name": "display_options",
+      "label": "Display Options",
+      "visible": true,
+      "placeholder": "Customize display options",
+      "items": [
+        {
+          "value": "enable_motion",
+          "label": "Enable Motion Backgrounds"
+        },
+        {
+          "value": "enable_advanced_info",
+          "label": "Enable Advance Weather Information"
+        },
+        {
+          "value": "enable_units",
+          "label": "Show Temperature Units"
+        },
+        {
+          "value": "hide_country",
+          "label": "Hide Country/State Name"
+        }
+      ],
+      "locked": false
+    },
+    {
+      "name": "text_color",
+      "label": "Text Color",
+      "type": "colorpicker",
+      "options": {
+        "allowtransparency": false,
+        "allowempty": false
+      },
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "background",
+      "label": "Background Color or Media",
+      "type": "background",
+      "options": {
+        "showcolor": true,
+        "showimage": true,
+        "allowtransparency": true
+      },
+      "validation": {
+        "fileextensions": [
+          ".bmp",
+          ".jpg",
+          ".png"
+        ]
+      },
+      "locked": false
+    }
+  ]
+}

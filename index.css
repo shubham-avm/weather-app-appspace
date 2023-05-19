@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --off-white: #e5e5e5;
+  --transp-white-1: rgba(255, 255, 255, 0.25);
+  --transp-white-2: rgba(255, 255, 255, 0.1);
+  --blue-1: #62b8f5;
+  --blue-2: #4475ef;
+  --shadow: rgba(3, 46, 87, 0.2);
+}
+
+body {
+  color: white;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.4);
+  overflow:hidden;
+  font-family: 'Poppins', sans-serif;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./sunset.jpg); */
+}
+
+.container {
+  /* background: var(--transp-white-2);
+  backdrop-filter: blur(10px); */
+  padding: 3rem 1.8rem;
+  /*width: 100%;
+   border: 2px solid var(--transp-white-2);
+  border-radius: 0.6rrem;
+  box-shadow: 0 1.8rrem 3.7rrem var(--shadow);
+  text-align: center; */
+}
+/* .search {
+  text-align: center;
+  padding: 1rrem;
+} */
+
+input {
+  padding: .7rrem 1.5rrem;
+  font-size: 1.2rrem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
+
+.current-temp{
+  background: var(--transp-white-2);
+  backdrop-filter: blur(10px);
+  padding: 3rem 1.8rem;
+  border: 2px solid var(--transp-white-2);
+  border-radius: 0.6rem;
+  box-shadow: 0 1.8rem 3.7rem var(--shadow);
+}
+
+#feels-like{
+  font-size: 1.2rem;
+}
+
+#weather{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.img-fluid{
+  float: right;
+  width: 65%;
+  display: flex;
+  align-items: center;
+}
+
+.bold{
+  font-weight: 800;
+}
+/* .card-temp{
+  
+  margin: 1rem;
+  border-radius: 1.5rem;
+  
+} */
+
+@media(max-width:414px){
+  .current-temp{
+    padding: 1rem 0.8em;   
+  }
+}
+
+.row2 .img-fluid{
+  margin: 10% 10%;
+  
+  width: 100%;
+}
+.card-2 .row{
+  justify-content: center;
+}
+.card-3 .row{
+  justify-content: center;
+}
+.row1{
+  font-size: 1rem;
+  font-weight: bold;
+  margin: auto;
+  
+}
+.row2{
+  width: auto;
+  height: auto;
+}
+.row3{
+  font-size: 1rem;
+  font-weight: bold;
+  margin: auto;
+}
+@media(max-width:400px)
+{
+  .row3{
+      font-size: 0.7rem;
+      font-weight: bold;
+  }
+  .row2{
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@media(max-width:320px)
+{
+  .row3{
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+}
+.row4{
+  font-size: 0.6rem;
+  color: rgb(196, 196, 196);
+  margin: 5% 0 2.5rem;
+}
+.card-3 .row3{
+  margin: 5% 0 2.5rem;
+}
+.col{
+  overflow: visible;
+  margin: 0.5rem;
+}
+.row{
+  overflow: visible;
+  width: 100%;
+}
+
+.card-2{
+  margin-top: 2rem;
+  
+}
+.card-2 .row .col {
+  background: var(--transp-white-2);
+  backdrop-filter: blur(10px);
+  padding: 1.2rem 1rem;
+  border: 2px solid var(--transp-white-2);
+  border-radius: 0.6rem;
+  box-shadow: 0 1.8rem 3.7rem var(--shadow);
+  
+}

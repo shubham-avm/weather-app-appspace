@@ -1,0 +1,22 @@
+{
+   "Name": "Weather",
+   "Id": "appspace.card.weather",
+   "Description": "Appspace Weather Card",
+   "Category": "Feeds",
+   "Thumbnail": "thumbnail.svg",
+   "Startup": "index.html",
+   "Schema": "schema.json",
+   "Developer": "Appspace",
+   "Model": "model.json",
+   "Version": "1.2.0",
+   "DisplayFormats": [{
+         "Type": "tv"
+      },
+      {
+         "Type": "mobile"
+      }
+   ],
+   "Network": {
+      "RequiresConnection": false
+   }
+}

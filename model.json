@@ -1,0 +1,57 @@
+{
+  "inputs": [
+    {
+      "name":"location",
+      "value":"Varanasi",
+      "type":"textbox"
+    },
+    {
+      "name":"key",
+      "value": "",
+      "type":"textbox"
+    },
+    {
+      "name": "units",
+      "value": "c",
+      "type": "dropdown"
+    },
+    {
+      "name": "display_options",
+      "value": [
+        "enable_motion",
+        "enable_advanced_info",
+        "hide_country"
+      ],
+      "type": "multiselect"
+    },
+    {
+      "name": "text_color",
+      "value": "#ffffff",
+      "type": "colorpicker"
+    },
+    {
+      "name": "background",
+      "value": {
+        "bgColor": "rgba(18,52,86,0.3)"
+      },
+      "type": "background"
+    },
+    {
+      "name": "serviceUrl",
+      "type": "textbox",
+      "value": "https://weather.services.cloud.appspace.com/api/v1/"
+    }
+  ],
+  "customData": {
+    "accountId": "1a475e3c-de6e-4c83-aefc-445f99423114",
+    "instanceId": "f63ae683-19fe-45c3-86e7-3e3d83b3b5ba",
+    "endpointId": "50fad24a-e336-4010-bed4-405d11058103",
+    "placeholderLocation": "Panaji,India",
+    "location": "Panaji,India"
+  },
+  "runtimeConfiguration": {
+    "containsBackgroundVideo": true,
+    "containsVideo": true
+  },
+  "tick": "2020-08-24T13:19:12.157Z"
+}
